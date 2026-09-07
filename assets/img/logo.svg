@@ -1,0 +1,37 @@
+<svg width="240" height="76" viewBox="0 0 240 76" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Policlínica Itapuã</title>
+  <defs>
+    <linearGradient id="gGray" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B7B9BC"/>
+      <stop offset="1" stop-color="#808285"/>
+    </linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8462F"/>
+      <stop offset="1" stop-color="#C6301C"/>
+    </linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F58A44"/>
+      <stop offset="1" stop-color="#F37021"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Símbolo: grid de blocos formando "P", inspirado na identidade visual (cinza / vermelho / laranja) -->
+  <g transform="translate(2,2)">
+    <!-- linha 0 (topo): gray, red, gray -->
+    <rect x="0"  y="0"  width="20" height="20" rx="3" fill="url(#gGray)"/>
+    <rect x="22" y="0"  width="20" height="20" rx="3" fill="url(#gRed)"/>
+    <rect x="44" y="0"  width="20" height="20" rx="3" fill="url(#gGray)"/>
+
+    <!-- linha 1: gray, orange -->
+    <rect x="0"  y="22" width="20" height="20" rx="3" fill="url(#gGray)"/>
+    <rect x="22" y="22" width="20" height="20" rx="3" fill="url(#gOrange)"/>
+
+    <!-- linha 2: gray, orange -->
+    <rect x="0"  y="44" width="20" height="20" rx="3" fill="url(#gGray)"/>
+    <rect x="22" y="44" width="20" height="20" rx="3" fill="url(#gOrange)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="82" y="32" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#1A1A1A" letter-spacing="0.2">Policlínica</text>
+  <text x="82" y="62" font-family="'Roboto Slab', Georgia, serif" font-size="27" font-weight="700" fill="#1A1A1A">Itapuã</text>
+</svg>
